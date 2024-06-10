@@ -1,0 +1,20 @@
+.product { 
+    border:2px solid green;
+    text-align:center;
+    display: grid;
+    
+    grid-template-rows:1fr 1fr;
+  
+    }
+ 
+  .product ,  img {
+    max-width: 100%;
+  } 
+
+  .discription {
+    padding: 0 20px 20px;
+  }
+
+  .constent, discription {
+    grid-column: span 1;
+  } 
